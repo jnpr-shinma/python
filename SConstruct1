@@ -1,0 +1,59 @@
+import os.path
+program_list = Program('hello.c')
+program_name = str(program_list[0])
+if not os.path.exists(program_name):
+    print program_name, "does not exist!"
+
+env=Environment(VAR="mx1")
+n=File("foo.c")
+print env.GetBuildPath([n, "test/mx/$VAR"])
+
+env = Environment()
+print "CC is:", env['CC']
+
+env = Environment(FOO = 'foo', BAR = 'bar')
+dict = env.Dictionary()
+for key in ['OBJSUFFIX', 'LIBSUFFIX', 'PROGSUFFIX','FOO']:
+    print "key = %s, value = %s" % (key, dict[key])
+
+#env = Environment()
+for item in sorted(env.Dictionary().items()):
+    print "construction variable = '%s', value = '%s'" % item
+
+#env = Environment()
+print "CC is:", env.subst('$CC')
+
+env = Environment(CCFLAGS = '-DFOO')
+print "CCCOM is:", env['CCCOM']
+print "CCCOM is:", env.subst('$CCCOM')
+
+print "ASDF",env.subst('$TARGET')
+
+#env = Environment()
+#env.Append(CCFLAGS = '-option -O3 -O1')
+#print env['CCFLAGS']
+#flags = { 'CCFLAGS' : '-whatever -O3' }
+#env.MergeFlags(flags)
+#print env['CCFLAGS']
+
+env = Environment()
+env.Append(CCFLAGS = '-option -O3 -O1')
+env.Append(CPPPATH = ['/include', '/usr/local/include', '/usr/include'])
+env.MergeFlags('-whatever -I/usr/opt/include -O3 -I/usr/local/include')
+print env['CCFLAGS']
+print env['CPPPATH']
+
+env = Environment()
+d = env.ParseFlags("-I/opt/include -L/opt/lib -lfoo")
+for k,v in sorted(d.items()):
+    if v:
+        print "---"
+        print k, v
+env.MergeFlags(d)
+env.Program('f1.c')
+
+env = Environment()
+if ARGUMENTS.get('VERBOSE') != "1':
+    env['CCCOMSTR'] = "Compiling $TARGET"
+    env['LINKCOMSTR'] = "Linking $TARGET"
+env.Program('foo.c')
