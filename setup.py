@@ -18,4 +18,8 @@ setup(
         keywords = ("test", "egg"),
         platforms = "Independant",
         url = "",
+        entry_points = {
+        'console_scripts' : [
+            'demo_server = demo.demo_server:server_main',
+        ]}
         )
