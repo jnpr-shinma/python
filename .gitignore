@@ -17,3 +17,7 @@ junit-py27.xml
 junit-coverage*
 /**/htmlcov/**
 .coverage
+dist/*
+build/*
+.cache
+.sconsign.dblite
