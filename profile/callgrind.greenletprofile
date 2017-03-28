@@ -1,0 +1,515 @@
+version: 1
+creator: yappi
+pid: 52841
+cmd:  /Users/shinma/workspace/python/python/profile/greenlet_profile.py
+part: 1
+
+events: Ticks
+
+fl=(37) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(41) /Users/shinma/workspace/python/python/profile/gevent_logic.py
+fl=(51) /Users/shinma/workspace/python/python/profile/gevent_logic.py
+fl=(48) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py
+fl=(0) /Users/shinma/workspace/python/python/profile/gevent_logic.py
+fl=(3) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py
+fl=(1) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(2) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(5) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py
+fl=(8) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py
+fl=(50) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py
+fl=(43) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(34) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py
+fl=(52) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py
+fl=(49) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py
+fl=(20) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(46) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(21) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(22) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(29) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(24) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(12) /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pprint.py
+fl=(54) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(47) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(18) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(30) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/_util.py
+fl=(23) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(38) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(31) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(40) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(13) /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pprint.py
+fl=(55) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(25) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(27) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(26) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(4) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py
+fl=(33) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/timeout.py
+fl=(59) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/timeout.py
+fl=(57) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py
+fl=(60) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/GreenletProfiler.py
+fl=(35) /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py
+
+fn=(37) Greenlet.run /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:530
+fn=(41) foo /Users/shinma/workspace/python/python/profile/gevent_logic.py:6
+fn=(51) bar /Users/shinma/workspace/python/python/profile/gevent_logic.py:14
+fn=(48) sleep /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py:141
+fn=(0) launch /Users/shinma/workspace/python/python/profile/gevent_logic.py:21
+fn=(3) get_hub /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py:361
+fn=(1) spawn /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:357
+fn=(2) Greenlet.__init__ /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:109
+fn=(5) Hub.__init__ /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py:501
+fn=(8) _import /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py:387
+fn=(50) Waiter.get /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py:887
+fn=(43) Greenlet.__repr__ /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:271
+fn=(34) Hub.switch /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py:626
+fn=(52) Waiter.switch /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py:857
+fn=(49) Waiter.__init__ /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py:821
+fn=(20) Greenlet.join /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:484
+fn=(46) Greenlet._formatinfo /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:281
+fn=(21) Greenlet.ready /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:246
+fn=(22) Greenlet.dead /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:183
+fn=(29) Greenlet.rawlink /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:557
+fn=(24) Greenlet.__started_but_aborted /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:204
+fn=(12) <module> /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pprint.py:35
+fn=(54) Greenlet._report_result /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:509
+fn=(47) getfuncname /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:735
+fn=(18) Greenlet.start /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:346
+fn=(30) Lazy.__get__ /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/_util.py:83
+fn=(23) Greenlet.__start_cancelled_by_kill /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:196
+fn=(38) Greenlet.__cancel_start /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:211
+fn=(31) Greenlet._links /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:151
+fn=(40) Greenlet.kwargs /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:147
+fn=(13) PrettyPrinter /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pprint.py:84
+fn=(55) Greenlet._has_links /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:155
+fn=(25) Greenlet.__never_started_or_killed /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:187
+fn=(27) Greenlet.__start_pending /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:191
+fn=(26) Greenlet.__start_completed /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:200
+fn=(4) get_hub_class /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py:350
+fn=(33) _start_new_or_dummy /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/timeout.py:175
+fn=(59) _FakeTimer.cancel /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/timeout.py:39
+fn=(57) Greenlet._notify_links /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/greenlet.py:604
+fn=(60) stop /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/GreenletProfiler.py:38
+fn=(35) Hub.run /Users/shinma/workspace/python/python/.venv/share/lib/python2.7/site-packages/gevent/hub.py:673
+
+fl=(37)
+fn=(37)
+530 101
+cfl=(54)
+cfn=(54)
+calls=2 0
+0 37
+cfl=(51)
+cfn=(51)
+calls=1 0
+0 1056897
+cfl=(41)
+cfn=(41)
+calls=1 0
+0 2227913
+cfl=(40)
+cfn=(40)
+calls=2 0
+0 8
+cfl=(38)
+cfn=(38)
+calls=2 0
+0 13
+
+fl=(41)
+fn=(41)
+6 1735404
+cfl=(48)
+cfn=(48)
+calls=20 0
+0 1539
+cfl=(43)
+cfn=(43)
+calls=20 0
+0 569
+cfl=(28)
+cfn=(28)
+calls=20 0
+0 154
+
+fl=(51)
+fn=(51)
+14 838065
+cfl=(48)
+cfn=(48)
+calls=10 0
+0 892
+cfl=(43)
+cfn=(43)
+calls=10 0
+0 321
+cfl=(28)
+cfn=(28)
+calls=10 0
+0 88
+
+fl=(48)
+fn=(48)
+141 663
+cfl=(50)
+cfn=(50)
+calls=30 0
+0 1161
+cfl=(19)
+cfn=(19)
+calls=30 0
+0 167
+cfl=(49)
+cfn=(49)
+calls=30 0
+0 323
+cfl=(3)
+cfn=(3)
+calls=30 0
+0 117
+
+fl=(0)
+fn=(0)
+21 23
+cfl=(20)
+cfn=(20)
+calls=2 0
+0 203
+cfl=(1)
+cfn=(1)
+calls=2 0
+0 1547
+
+fl=(3)
+fn=(3)
+361 202
+cfl=(5)
+cfn=(5)
+calls=1 0
+0 1421
+cfl=(4)
+cfn=(4)
+calls=1 0
+0 5
+
+fl=(1)
+fn=(1)
+357 39
+cfl=(18)
+cfn=(18)
+calls=2 0
+0 28
+cfl=(2)
+cfn=(2)
+calls=2 0
+0 1480
+
+fl=(2)
+fn=(2)
+109 27
+cfl=(17)
+cfn=(17)
+calls=4 0
+0 1452
+
+fl=(5)
+fn=(5)
+501 177
+cfl=(8)
+cfn=(8)
+calls=2 0
+0 1236
+cfl=(7)
+cfn=(7)
+calls=1 0
+0 5
+cfl=(6)
+cfn=(6)
+calls=1 0
+0 4
+
+fl=(8)
+fn=(8)
+387 89
+cfl=(16)
+cfn=(16)
+calls=1 0
+0 4
+cfl=(15)
+cfn=(15)
+calls=1 0
+0 3
+cfl=(14)
+cfn=(14)
+calls=1 0
+0 5
+cfl=(11)
+cfn=(11)
+calls=1 0
+0 1109
+cfl=(10)
+cfn=(10)
+calls=1 0
+0 9
+cfl=(8)
+cfn=(8)
+calls=1 0
+0 11
+cfl=(9)
+cfn=(9)
+calls=5 0
+0 16
+
+fl=(50)
+fn=(50)
+887 300
+cfl=(34)
+cfn=(34)
+calls=30 0
+0 803
+cfl=(28)
+cfn=(28)
+calls=30 0
+0 56
+
+fl=(43)
+fn=(43)
+271 582
+cfl=(46)
+cfn=(46)
+calls=30 0
+0 150
+
+fl=(34)
+fn=(34)
+626 587
+cfl=(15)
+cfn=(15)
+calls=31 0
+0 184
+cfl=(28)
+cfn=(28)
+calls=31 0
+0 54
+
+fl=(52)
+fn=(52)
+857 262
+cfl=(28)
+cfn=(28)
+calls=30 0
+0 49
+
+fl=(49)
+fn=(49)
+821 261
+cfl=(3)
+cfn=(3)
+calls=30 0
+0 62
+
+fl=(20)
+fn=(20)
+484 32
+cfl=(59)
+cfn=(59)
+calls=1 0
+0 2
+cfl=(34)
+cfn=(34)
+calls=1 0
+0 22
+cfl=(33)
+cfn=(33)
+calls=1 0
+0 2
+cfl=(29)
+cfn=(29)
+calls=1 0
+0 63
+cfl=(28)
+cfn=(28)
+calls=3 0
+0 80
+
+fl=(46)
+fn=(46)
+281 119
+cfl=(47)
+cfn=(47)
+calls=2 0
+0 29
+
+fl=(21)
+fn=(21)
+246 14
+cfl=(22)
+cfn=(22)
+calls=3 0
+0 92
+
+fl=(22)
+fn=(22)
+183 24
+cfl=(24)
+cfn=(24)
+calls=3 0
+0 59
+cfl=(23)
+cfn=(23)
+calls=3 0
+0 8
+
+fl=(29)
+fn=(29)
+557 16
+cfl=(21)
+cfn=(21)
+calls=1 0
+0 28
+cfl=(32)
+cfn=(32)
+calls=1 0
+0 2
+cfl=(30)
+cfn=(30)
+calls=1 0
+0 16
+cfl=(17)
+cfn=(17)
+calls=1 0
+0 1
+
+fl=(24)
+fn=(24)
+204 37
+cfl=(27)
+cfn=(27)
+calls=2 0
+0 5
+cfl=(26)
+cfn=(26)
+calls=3 0
+0 5
+cfl=(23)
+cfn=(23)
+calls=3 0
+0 6
+cfl=(25)
+cfn=(25)
+calls=3 0
+0 6
+
+fl=(12)
+fn=(12)
+35 42
+cfl=(13)
+cfn=(13)
+calls=1 0
+0 7
+
+fl=(54)
+fn=(54)
+509 27
+cfl=(19)
+cfn=(19)
+calls=1 0
+0 4
+cfl=(55)
+cfn=(55)
+calls=2 0
+0 7
+
+fl=(47)
+fn=(47)
+735 14
+cfl=(6)
+cfn=(6)
+calls=2 0
+0 16
+
+fl=(18)
+fn=(18)
+346 17
+cfl=(19)
+cfn=(19)
+calls=2 0
+0 11
+
+fl=(30)
+fn=(30)
+83 7
+cfl=(31)
+cfn=(31)
+calls=1 0
+0 9
+
+fl=(23)
+fn=(23)
+196 14
+
+fl=(38)
+fn=(38)
+211 10
+cfl=(39)
+cfn=(39)
+calls=2 0
+0 3
+
+fl=(31)
+fn=(31)
+151 9
+
+fl=(40)
+fn=(40)
+147 8
+
+fl=(13)
+fn=(13)
+84 7
+
+fl=(55)
+fn=(55)
+155 7
+
+fl=(25)
+fn=(25)
+187 6
+
+fl=(27)
+fn=(27)
+191 5
+
+fl=(26)
+fn=(26)
+200 5
+
+fl=(4)
+fn=(4)
+350 5
+
+fl=(33)
+fn=(33)
+175 2
+
+fl=(59)
+fn=(59)
+39 2
+
+fl=(57)
+fn=(57)
+604 0
+
+fl=(60)
+fn=(60)
+38 0
+
+fl=(35)
+fn=(35)
+673 0
+cfl=(36)
+cfn=(36)
+calls=1 0
+0 0
+cfl=(28)
+cfn=(28)
+calls=1 0
+0 1
